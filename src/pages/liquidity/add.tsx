@@ -178,13 +178,13 @@ function LiquidityConfirmRiskPanel({
   return (
     <FadeInStable show={isPanelOpen}>
       <div className={twMerge('bg-[#141041] rounded-xl py-3 px-6 mobile:px-4', className)}>
-        <div className="text-sm">
+        {/* <div className="text-sm">
           I have read{' '}
           <Link href="https://raydium.gitbook.io/raydium/exchange-trade-and-swap/liquidity-pools">
             Raydium's Liquidity Guide
           </Link>{' '}
           and understand the risks involved with providing liquidity and impermanent loss.
-        </div>
+        </div> */}
 
         <Checkbox
           checkBoxSize="sm"

@@ -63,7 +63,7 @@ export default function MessageBoardWidget() {
         renderPopoverContent={({ close: closePanel }) => (
           <div>
             <div className="pt-3 -mb-1 mobile:mb-2 px-6 text-[rgba(171,196,255,0.5)] text-xs mobile:text-sm">
-              Raydium Message Board
+              Lania Message Board
             </div>
             <div className="gap-3 divide-y-1.5 p-4">
               {messageBoardItems.map((item) => (

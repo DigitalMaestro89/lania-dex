@@ -100,19 +100,19 @@ export function useWelcomeDialog(options?: { force?: boolean }) {
 export function popWelcomeDialogFn(cb?: { onConfirm: () => void }) {
   useNotification.getState().popWelcomeDialog(
     <div>
-      <div className="text-2xl text-white text-center m-4 mb-8">Welcome to Raydium V2</div>
+      <div className="text-2xl text-white text-center m-4 mb-8">Welcome to Lania</div>
 
       <div className="text-[#C4D6FF] mb-4 ">
-        Raydium V2 is built for a faster, more streamlined experience. However, it is{' '}
+        Lania is built for a faster, more streamlined experience. However, it is{' '}
         <span className="text-[#39D0D8] font-bold">still under development</span>.
       </div>
-      <div className="text-[#C4D6FF] mb-4 ">
+      {/* <div className="text-[#C4D6FF] mb-4 ">
         You can still use <Link href="https://v1.raydium.io/swap">V1</Link> for Raydium’s full features.
-      </div>
-      <div className="text-[#C4D6FF] mb-4 ">
+      </div> */}
+      {/* <div className="text-[#C4D6FF] mb-4 ">
         Help Raydium improve by reporting bugs <Link href="https://forms.gle/DvUS4YknduBgu2D7A">here</Link>, or in{' '}
         <Link href="https://discord.gg/raydium">Discord.</Link>
-      </div>
+      </div> */}
     </div>,
     {
       onConfirm: () => {

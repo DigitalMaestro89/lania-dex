@@ -287,7 +287,7 @@ function HomePageSection2() {
             </div>
             <div className="font-semibold text-lg text-white mb-2">Order Book AMM</div>
             <div className="font-light text-[#c4d6ff] mb-5">
-              Raydium{"'"}s AMM interacts with Serum{"'"}s central limit order book, meaning that pools have access to
+              Lania{"'"}s AMM interacts with Serum{"'"}s central limit order book, meaning that pools have access to
               all order flow and liquidity on Serum, and vice versa.
             </div>
           </Card>
@@ -304,7 +304,7 @@ function HomePageSection2() {
             </div>
             <div className="font-semibold text-lg text-white mb-2">Best Price Swaps</div>
             <div className="font-light text-[#c4d6ff] mb-5">
-              Raydium determines whether swapping within a liquidity pool or through the Serum order book will provide
+              Lania determines whether swapping within a liquidity pool or through the Serum order book will provide
               the best price for the user, and executes accordingly.
             </div>
           </Card>
@@ -440,7 +440,7 @@ function HomePageFooter() {
             />
           </div>
           <Col className="gap-6">
-            <Link
+            {/* <Link
               className="text-[#c4d6ff] hover:text-white tablet:text-center"
               href="https://raydium.gitbook.io/raydium/trading-on-serum/spl-wallets"
             >
@@ -451,7 +451,7 @@ function HomePageFooter() {
               href="https://raydium.gitbook.io/raydium/trading-on-serum/faq"
             >
               FAQ
-            </Link>
+            </Link> */}
           </Col>
         </div>
 

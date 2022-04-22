@@ -114,7 +114,7 @@ function PanelContent({ historyItems, onClickX }: { historyItems: TxHistoryInfo[
           ))
         ) : (
           <div className="font-medium text-[rgba(171,196,255,0.3)] text-sm py-4 text-center">
-            No recent transactions on Raydium
+            No recent transactions on Lania
           </div>
         )}
       </div>

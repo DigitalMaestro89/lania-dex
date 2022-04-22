@@ -128,7 +128,7 @@ function PanelContent({
       }}
     >
       <Row className="items-center justify-between px-8 py-8">
-        <div className="text-xl font-semibold text-white">Connect your wallet to Raydium</div>
+        <div className="text-xl font-semibold text-white">Connect your wallet to Lania</div>
         <Icon className="text-[#ABC4FF] cursor-pointer" heroIconName="x" onClick={close} />
       </Row>
 
@@ -168,12 +168,12 @@ function PanelContent({
         <Icon className="mx-2" size="sm" heroIconName={isAllWalletShown ? 'chevron-up' : 'chevron-down'}></Icon>
       </Row>
 
-      <div className="py-4 text-center font-medium text-sm border-t-1.5 border-[rgba(171,196,255,0.2)]">
+      {/* <div className="py-4 text-center font-medium text-sm border-t-1.5 border-[rgba(171,196,255,0.2)]">
         New here?{' '}
         <Link href="https://raydium.gitbook.io/raydium/" className="text-[#abc4ff]">
           Get started on Raydium!
         </Link>
-      </div>
+      </div> */}
     </Card>
   )
 }
