@@ -82,7 +82,7 @@ function HomePageSection0() {
           Light-speed <b>swaps</b>. Next-level <b>liquidity</b>. {isMobile ? <br /> : ''} Friction-less <b>yield</b>.
         </div>
         {/* two button */}
-        <Row className="gap-8 mobile:gap-4 mb-16 mobile:mb-6 grid grid-cols-2-fr">
+        <Row className="gap-8 mobile:gap-4 mb-16 mobile:mb-6">
           <Button
             className="home-rainbow-button-bg text-white mobile:text-xs px-5 mobile:px-4"
             onClick={() => {
