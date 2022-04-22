@@ -95,7 +95,7 @@ function HomePageSection0() {
             </Row>
           </Button>
 
-          <Button
+          {/* <Button
             className="frosted-glass-teal text-white mobile:text-xs px-5 mobile:px-4 forsted-blur"
             onClick={() => {
               linkTo('https://raydium.gitbook.io/raydium/')
@@ -105,7 +105,7 @@ function HomePageSection0() {
               <div>Read docs</div>
               <Icon iconSrc="/icons/gitbook.svg" size="sm" />
             </Row>
-          </Button>
+          </Button> */}
         </Row>
         {/* two panels */}
         <Row className="gap-6 mobile:gap-3 mb-9 grid grid-cols-2-fr">
@@ -271,7 +271,7 @@ function HomePageSection2() {
             className="w-10 h-px my-2 mx-auto rounded-full"
             style={{ background: 'radial-gradient(39.84% 47.5% at 96.82% 58.33%, #39d0d8 0%, #2b6aff 100%)' }}
           />
-          <div className="text-lg">Raydium provides Ecosystem-Wide Liquidity for users and projects</div>
+          <div className="text-lg">Lania provides Ecosystem-Wide Liquidity for users and projects</div>
         </div>
 
         <Grid className="gap-6 grid-cols-3 tablet:grid-cols-1 mobile:grid-cols-1 justify-items-center">
