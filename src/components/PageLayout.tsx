@@ -272,7 +272,7 @@ function Navbar({
   const pcNavContent = (
     <Row className="justify-between items-center">
       <Link href="/">
-        <Image className="cursor-pointer" src="/logo/logo-with-text.svg" />
+        <Image className="cursor-pointer" src="/logo/logo-with-text.png" />
       </Link>
 
       <Row className="gap-8 items-center">
@@ -293,7 +293,7 @@ function Navbar({
         </div>
       ) : (
         <Link className="place-self-center" href="/">
-          <Image className="cursor-pointer" src="/logo/logo-only-icon.svg" />
+          <Image className="cursor-pointer" src="/logo/logo-only-icon.png" />
         </Link>
       )}
 
@@ -347,7 +347,7 @@ function SideMenu({ className, onClickCloseBtn }: { className?: string; onClickC
         {isMobile && (
           <Row className="items-center justify-between p-6 mobile:p-4 mobile:pl-8">
             <Link href="/">
-              <Image src="/logo/logo-with-text.svg" className="mobile:scale-75" />
+              <Image src="/logo/logo-with-text.png" className="mobile:scale-75" />
             </Link>
             <Icon
               size={isMobile ? 'sm' : 'md'}
@@ -359,9 +359,9 @@ function SideMenu({ className, onClickCloseBtn }: { className?: string; onClickC
         )}
         <Col className="grid-cols-[auto,5fr,auto,1fr] justify-between flex-1 overflow-hidden">
           <div className="shrink overflow-y-auto  py-4 space-y-1 mobile:py-0 px-2 mx-2 mb-2">
-            <LinkItem icon="/icons/entry-icon-trade.svg" href="https://dex.raydium.io/">
+            {/* <LinkItem icon="/icons/entry-icon-trade.svg" href="https://dex.raydium.io/">
               Trading
-            </LinkItem>
+            </LinkItem> */}
             <LinkItem icon="/icons/entry-icon-swap.svg" href="/swap" isCurrentRoutePath={pathname.includes('swap')}>
               Swap
             </LinkItem>
@@ -385,15 +385,15 @@ function SideMenu({ className, onClickCloseBtn }: { className?: string; onClickC
             >
               Staking
             </LinkItem>
-            <LinkItem icon="/icons/entry-icon-acceleraytor.svg" href="https://v1.raydium.io/acceleRaytor/">
+            {/* <LinkItem icon="/icons/entry-icon-acceleraytor.svg" href="https://v1.raydium.io/acceleRaytor/">
               AcceleRaytor
-            </LinkItem>
-            <LinkItem icon="/icons/entry-icon-dropzone.svg" href="https://dropzone.raydium.io/">
+            </LinkItem> */}
+            {/* <LinkItem icon="/icons/entry-icon-dropzone.svg" href="https://dropzone.raydium.io/">
               Dropzone
-            </LinkItem>
-            <LinkItem icon="/icons/entry-icon-nft.svg" href="https://nft.raydium.io/">
+            </LinkItem> */}
+            {/* <LinkItem icon="/icons/entry-icon-nft.svg" href="https://nft.raydium.io/">
               NFT
-            </LinkItem>
+            </LinkItem> */}
           </div>
 
           <div></div>
@@ -405,7 +405,7 @@ function SideMenu({ className, onClickCloseBtn }: { className?: string; onClickC
             <SettingSidebarWidget />
             <CommunityPanelSidebarWidget />
 
-            <OptionItem noArrow href="https://raydium.gitbook.io/raydium/" iconSrc="/icons/msic-docs.svg">
+            {/* <OptionItem noArrow href="https://raydium.gitbook.io/raydium/" iconSrc="/icons/msic-docs.svg">
               Docs
             </OptionItem>
 
@@ -415,7 +415,7 @@ function SideMenu({ className, onClickCloseBtn }: { className?: string; onClickC
 
             <OptionItem noArrow href="https://forms.gle/DvUS4YknduBgu2D7A" iconSrc="/icons/misc-feedback.svg">
               Feedback
-            </OptionItem>
+            </OptionItem> */}
           </div>
 
           <div className="text-sm m-2 opacity-20 hover:opacity-100 transition font-medium text-[#abc4ff] whitespace-nowrap">

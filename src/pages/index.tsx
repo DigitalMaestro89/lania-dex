@@ -41,7 +41,7 @@ function HomePageNavbar() {
   const { push } = useRouter()
   return (
     <Row className="justify-between mobile:justify-center py-12 px-[min(160px,8vw)]">
-      <Image src="/logo/logo-with-text.svg" />
+      <Image src="/logo/logo-with-text.png" />
       {!isMobile && (
         <Button
           className="frosted-glass-teal"
@@ -569,7 +569,7 @@ function HomePageFooter() {
         </div>
       </Grid>
 
-      <Image className="mx-auto p-20 transform scale-125 pointer-events-none" src="/logo/logo-with-text.svg" />
+      <Image className="mx-auto p-20 transform scale-125 pointer-events-none" src="/logo/logo-with-text.png" />
     </footer>
   )
 }
