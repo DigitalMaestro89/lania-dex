@@ -64,7 +64,7 @@ export default function Select<T extends string>({
         className={`absolute z-10 top-0 left-0 ring-inset  ring-1.5 ring-[rgba(196,214,255,0.5)] rounded-xl mobile:rounded-xl w-full`}
         style={{
           background: isOpen
-            ? 'linear-gradient(140.14deg, rgba(0, 182, 191, 0.15) 0%, rgba(27, 22, 89, 0.1) 86.61%), linear-gradient(321.82deg, #18134D 0%, #1B1659 100%)'
+            ? 'linear-gradient(140.14deg, #4b69ef 0%, #3c5ae1 86.61%), linear-gradient(321.82deg, rgb(24, 19, 77) 0%, rgb(27, 22, 89) 100%)'
             : ''
         }}
         onClose={() => setIsOpen(false)}

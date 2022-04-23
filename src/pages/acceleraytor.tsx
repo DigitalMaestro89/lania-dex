@@ -93,7 +93,7 @@ function AcceleRaytorCollapseItemFace({ open, info }: { open: boolean; info: Hyd
   return (
     <Row
       type="grid-x"
-      className={`py-6 px-8 mobile:py-4 mobile:px-5 bg-[#141041] items-stretch gap-2 grid-cols-[auto,1fr,auto]  rounded-t-3xl mobile:rounded-t-lg ${
+      className={`py-6 px-8 mobile:py-4 mobile:px-5 bg-[#5271fd] items-stretch gap-2 grid-cols-[auto,1fr,auto]  rounded-t-3xl mobile:rounded-t-lg ${
         open ? '' : 'rounded-b-3xl mobile:rounded-b-lg'
       }`}
     >
@@ -125,7 +125,7 @@ function AcceleRaytorCollapseItemContent({ info }: { info: HydratedIdoInfo }) {
       className="p-4 px-12 gap-8 mobile:gap-3 rounded-b-3xl mobile:rounded-b-lg"
       style={{
         background:
-          'linear-gradient(140.14deg, rgba(0, 182, 191, 0.15) 0%, rgba(27, 22, 89, 0.1) 86.61%), linear-gradient(321.82deg, #18134D 0%, #1B1659 100%)'
+          'linear-gradient(140.14deg, #4b69ef 0%, #3c5ae1 86.61%), linear-gradient(321.82deg, rgb(24, 19, 77) 0%, rgb(27, 22, 89) 100%)'
       }}
     >
       <Card className="mx-auto w-[min(90vw,420px)] py-4 px-8 bg-acceleraytor-card-bg rounded-2xl frosted-glass-lightsmoke">

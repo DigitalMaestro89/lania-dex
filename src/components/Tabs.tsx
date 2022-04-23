@@ -44,7 +44,7 @@ export default function Tabs<T extends string = string>({ affectUrlHash, classNa
       className={twMerge('rounded-full p-1', className)}
       style={{
         background:
-          'linear-gradient(140.14deg, rgba(0, 182, 191, 0.15) 0%, rgba(27, 22, 89, 0.1) 86.61%), linear-gradient(321.82deg, #18134D 0%, #1B1659 100%)'
+          'linear-gradient(140.14deg, rgba(0, 182, 191, 0.15) 0%, rgba(27, 22, 89, 0.1) 86.61%), linear-gradient(321.82deg, #5271ff 0%, #2e4edf  100%)'
       }}
       itemClassName={(checked) =>
         twMerge(
@@ -57,7 +57,7 @@ export default function Tabs<T extends string = string>({ affectUrlHash, classNa
       itemStyle={(checked, idx, values) =>
         checked
           ? {
-              background: 'linear-gradient(245.22deg, rgb(218, 46, 239), rgb(43, 106, 255), rgb(57, 208, 216))',
+              background: 'linear-gradient(245.22deg, rgb(57, 208, 216), rgb(43, 106, 255), rgb(57, 208, 216))',
               backgroundSize: '400% 100%',
               backgroundPosition: toPercentString((1 / (values.length - 1)) * idx)
             }

@@ -108,7 +108,7 @@ export default function PageLayout(props: {
       <main
         // always occupy scrollbar space
         className={twMerge(
-          `PageLayoutContent relative isolate flex-container grid-area-c bg-gradient-to-b from-[#0c0927] to-[#110d36] rounded-tl-3xl mobile:rounded-none p-12 ${
+          `PageLayoutContent relative isolate flex-container grid-area-c bg-gradient-to-b from-[#38b6ff] to-[#00c2cb] rounded-tl-3xl mobile:rounded-none p-12 ${
             props.contentIsFixedLength ? 'pb-4' : ''
           } mobile:py-2 mobile:px-3`,
           props.contentClassName
@@ -339,7 +339,7 @@ function SideMenu({ className, onClickCloseBtn }: { className?: string; onClickC
         )}
         style={{
           background: isMobile
-            ? 'linear-gradient(242.18deg, rgba(57, 208, 216, 0.08) 68.05%, rgba(57, 208, 216, 0.02) 86.71%), #0C0926'
+            ? 'linear-gradient(140.14deg, #4b69ef 0%, #3c5ae1 86.61%), linear-gradient(321.82deg, rgb(24, 19, 77) 0%, rgb(27, 22, 89) 100%)'
             : undefined,
           boxShadow: isMobile ? '8px 0px 48px rgba(171, 196, 255, 0.12)' : undefined
         }}
@@ -419,8 +419,7 @@ function SideMenu({ className, onClickCloseBtn }: { className?: string; onClickC
           </div>
 
           <div className="text-sm m-2 opacity-20 hover:opacity-100 transition font-medium text-[#abc4ff] whitespace-nowrap">
-            <div>current: {currentVersion}</div>
-            <div>lastest: {lastestVersion}</div>
+            <div className="text-center">Copyright © 2022</div>
           </div>
         </Col>
       </Col>
@@ -533,7 +532,7 @@ function SettingPopover() {
       </Row>
       <Row className="gap-3 justify-between">
         <div
-          className={`py-1 px-3 bg-[#141041] rounded-full text-[#F1F1F2] font-medium text-sm ${
+          className={`py-1 px-3 bg-[#5271fd] rounded-full text-[#F1F1F2] font-medium text-sm ${
             eq(slippageTolerance, 0.001) ? 'ring-1 ring-inset ring-[#39D0D8]' : ''
           } cursor-pointer`}
           onClick={() => {
@@ -543,7 +542,7 @@ function SettingPopover() {
           0.1%
         </div>
         <div
-          className={`py-1 px-3 bg-[#141041] rounded-full text-[#F1F1F2] font-medium text-sm ${
+          className={`py-1 px-3 bg-[#5271fd] rounded-full text-[#F1F1F2] font-medium text-sm ${
             eq(slippageTolerance, 0.005) ? 'ring-1 ring-inset ring-[#39D0D8]' : ''
           } cursor-pointer`}
           onClick={() => {
@@ -553,7 +552,7 @@ function SettingPopover() {
           0.5%
         </div>
         <div
-          className={`py-1 px-3 bg-[#141041] rounded-full text-[#F1F1F2] font-medium text-sm ${
+          className={`py-1 px-3 bg-[#5271fd] rounded-full text-[#F1F1F2] font-medium text-sm ${
             eq(slippageTolerance, 0.01) ? 'ring-1 ring-inset ring-[#39D0D8]' : ''
           } cursor-pointer`}
           onClick={() => {
@@ -563,7 +562,7 @@ function SettingPopover() {
           1%
         </div>
         <div
-          className={`py-1 px-3 bg-[#141041] rounded-full text-[#F1F1F2] font-medium text-sm ${
+          className={`py-1 px-3 bg-[#5271fd] rounded-full text-[#F1F1F2] font-medium text-sm ${
             !(eq(slippageTolerance, 0.001) || eq(slippageTolerance, 0.005) || eq(slippageTolerance, 0.01))
               ? 'ring-1 ring-inset ring-[#39D0D8]'
               : ''

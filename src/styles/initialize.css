@@ -11,7 +11,7 @@ body {
     'Segoe UI Symbol';
   font-feature-settings: 'ss04', 'tnum' 0;
   color: var(--primary);
-  background-color: rgb(19, 26, 53);
+  background-color: #5271ff;
 }
 :root {
   font-size: 16px;
