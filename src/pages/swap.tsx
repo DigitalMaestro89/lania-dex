@@ -82,7 +82,7 @@ export default function Swap() {
   return (
     <SwapUIContextProvider>
       <SwapEffect />
-      <PageLayout mobileBarTitle="Swap" metaTitle="Swap - Raydium">
+      <PageLayout mobileBarTitle="Swap" metaTitle="Swap - Lania">
         <SwapHead />
         <SwapCard />
         {/* <UnwrapWSOL /> */}
