@@ -31,7 +31,7 @@ export default function InputBox({
     inputRef.current?.focus()
   }
   return inputStyle === 'textarea' ? (
-    <Col onClick={focusInput} className={twMerge(`bg-[#5271fd] rounded-xl py-3 px-6 cursor-text`, className)}>
+    <Col onClick={focusInput} className={twMerge(`bg-[#112991] rounded-xl py-3 px-6 cursor-text`, className)}>
       {label && (
         <div className={`text-sm font-medium text-[rgba(171,196,255,.5)] mb-3 mobile:mb-1 mobile:text-xs`}>{label}</div>
       )}
@@ -49,7 +49,7 @@ export default function InputBox({
       {label && <div className={`text-sm font-medium text-[rgba(171,196,255,.5)] mobile:text-xs my-1`}>{label}</div>}
       {shrinkToValue(renderInput, [inputRef]) ?? (
         <Input
-          className="w-full bg-[#5271fd] rounded-lg py-2 px-4"
+          className="w-full bg-[#112991] rounded-lg py-2 px-4"
           componentRef={inputRef}
           onUserInput={(text) => onUserInput?.(text)}
           onEnter={onEnter}

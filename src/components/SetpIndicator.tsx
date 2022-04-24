@@ -30,7 +30,7 @@ export default function SetpIndicator<T extends { /** start from 1  */ stepNumbe
           <Col className="items-center">
             {shrinkToValue(renderStepNumber, [info]) || (
               <div
-                className={`grid place-items-center h-8 w-8 mobile:h-6 mobile:w-6 text-sm font-medium bg-[#5271fd] rounded-full ${
+                className={`grid place-items-center h-8 w-8 mobile:h-6 mobile:w-6 text-sm font-medium bg-[#112991] rounded-full ${
                   currentStep === info.stepNumber ? 'text-[#F1F1F2]' : 'text-[rgba(171,196,255,.5)]'
                 } ${currentStep > info.stepNumber ? 'clickable' : ''}`}
                 onClick={() => {

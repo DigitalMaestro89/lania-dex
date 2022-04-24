@@ -44,7 +44,7 @@ export default function Tabs<T extends string = string>({ affectUrlHash, classNa
       className={twMerge('rounded-full p-1', className)}
       style={{
         background:
-          'linear-gradient(140.14deg, rgba(0, 182, 191, 0.15) 0%, rgba(27, 22, 89, 0.1) 86.61%), linear-gradient(321.82deg, #5271ff 0%, #2e4edf  100%)'
+          'linear-gradient(140.14deg, rgba(0, 182, 191, 0.15) 0%, rgba(27, 22, 89, 0.1) 86.61%), linear-gradient(321.82deg, #2543c9 0%, #2e4edf  100%)'
       }}
       itemClassName={(checked) =>
         twMerge(

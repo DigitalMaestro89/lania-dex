@@ -177,7 +177,7 @@ function LiquidityConfirmRiskPanel({
 }) {
   return (
     <FadeInStable show={isPanelOpen}>
-      <div className={twMerge('bg-[#5271fd] rounded-xl py-3 px-6 mobile:px-4', className)}>
+      <div className={twMerge('bg-[#112991] rounded-xl py-3 px-6 mobile:px-4', className)}>
         {/* <div className="text-sm">
           I have read{' '}
           <Link href="https://raydium.gitbook.io/raydium/exchange-trade-and-swap/liquidity-pools">
@@ -263,7 +263,7 @@ function LiquidityCard() {
       size="lg"
       style={{
         background:
-          'linear-gradient(140.14deg, #4b69ef 0%, #3c5ae1 86.61%), linear-gradient(321.82deg, rgb(24, 19, 77) 0%, rgb(27, 22, 89) 100%)'
+          'linear-gradient(140.14deg, #2543c9 0%, #1d39b9 86.61%), linear-gradient(321.82deg, rgb(24, 19, 77) 0%, rgb(27, 22, 89) 100%)'
       }}
     >
       {/* input twin */}
@@ -624,7 +624,7 @@ function LiquidityCardInfo({ className }: { className?: string }) {
               <LiquidityCardItem
                 fieldName="Slippage Tolerance"
                 fieldValue={
-                  <Row className="py-1 px-2 bg-[#5271fd] rounded-sm text-[#F1F1F2] font-medium text-xs">
+                  <Row className="py-1 px-2 bg-[#112991] rounded-sm text-[#F1F1F2] font-medium text-xs">
                     <Input
                       className="w-6"
                       value={toString(mul(slippageTolerance, 100), { decimalLength: 'auto 2' })}
@@ -727,7 +727,7 @@ function LiquidityCardTooltipPanelAddressItem({
   return (
     <Row className={twMerge('grid gap-1 items-center grid-cols-[4em,1fr,auto,auto]', className)}>
       <div className="text-xs font-normal text-white">{label}</div>
-      <Row className="px-1 py-0.5 text-xs font-normal text-white bg-[#5271fd] rounded justify-center">
+      <Row className="px-1 py-0.5 text-xs font-normal text-white bg-[#112991] rounded justify-center">
         {/* setting text-overflow empty string will make effect in FireFox, not Chrome */}
         <div className="self-end overflow-hidden tracking-wide">{address.slice(0, 5)}</div>
         <div className="tracking-wide">...</div>
@@ -778,7 +778,7 @@ function UserLiquidityExhibition() {
         size="lg"
         style={{
           background:
-            'linear-gradient(140.14deg, #4b69ef 0%, #3c5ae1 86.61%), linear-gradient(321.82deg, rgb(24, 19, 77) 0%, rgb(27, 22, 89) 100%)'
+            'linear-gradient(140.14deg, #2543c9 0%, #1d39b9 86.61%), linear-gradient(321.82deg, rgb(24, 19, 77) 0%, rgb(27, 22, 89) 100%)'
         }}
       >
         <List className={`flex flex-col gap-6 mobile:gap-5 ${exhibitionInfos.length ? 'mb-5' : ''}`}>
@@ -935,7 +935,7 @@ function CreatePoolCardEntry() {
         size="lg"
         style={{
           background:
-            'linear-gradient(140.14deg, #4b69ef 0%, #3c5ae1 86.61%), linear-gradient(321.82deg, rgb(24, 19, 77) 0%, rgb(27, 22, 89) 100%)'
+            'linear-gradient(140.14deg, #2543c9 0%, #1d39b9 86.61%), linear-gradient(321.82deg, rgb(24, 19, 77) 0%, rgb(27, 22, 89) 100%)'
         }}
       >
         <Row className="gap-4">

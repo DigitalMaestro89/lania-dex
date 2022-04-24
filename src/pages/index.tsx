@@ -25,8 +25,8 @@ function HomePageContainer({ children }: { children?: ReactNode }) {
     <div
       className="flow-root overflow-x-hidden"
       style={{
-        backgroundColor: '#141041',
-        backgroundImage: "url('/backgroundImages/home-page-bg-lights.webp')",
+        // backgroundColor: '#141041',
+        // backgroundImage: "url('/backgroundImages/home-page-bg-lights.webp')",
         backgroundSize: '100% 95%',
         backgroundRepeat: 'no-repeat'
       }}
@@ -155,8 +155,8 @@ function HomePageSection1() {
     <section
       className="grid-child-center overflow-hidden relative mx-auto tablet:mx-5 px-24 tablet:p-8 max-w-[1320px] min-h-[506px] hidden rounded-[100px] mobile:rounded-[40px]"
       style={{
-        background:
-          "radial-gradient(at center top, transparent 20%, hsl(245, 60%, 16%, 0.2)), url('/backgroundImages/home-page-section1-light.webp'), #1b1659",
+        // background:
+        //   "radial-gradient(at center top, transparent 20%, hsl(245, 60%, 16%, 0.2)), url('/backgroundImages/home-page-section1-light.webp'), #1b1659",
         boxShadow:
           '8px 8px 10px rgba(20, 16, 65, 0.05), -8px -8px 10px rgba(197, 191, 255, 0.05), inset 0 6px 20px rgba(197, 191, 255, 0.2), inset 0 -1px 25px rgba(197, 191, 255, 0.1)',
         backgroundSize: '100% 100%'

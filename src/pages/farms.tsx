@@ -99,7 +99,7 @@ function ToolsButton({ className }: { className?: string }) {
               size="lg"
               style={{
                 background:
-                  'linear-gradient(140.14deg, #4b69ef 0%, #3c5ae1 86.61%), linear-gradient(321.82deg, rgb(24, 19, 77) 0%, rgb(27, 22, 89) 100%)',
+                  'linear-gradient(140.14deg, #2543c9 0%, #1d39b9 86.61%), linear-gradient(321.82deg, rgb(24, 19, 77) 0%, rgb(27, 22, 89) 100%)',
                 boxShadow: '0px 8px 48px rgba(171, 196, 255, 0.12)'
               }}
             >
@@ -324,7 +324,7 @@ function FarmCard() {
       size="lg"
       style={{
         background:
-          'linear-gradient(140.14deg, #4b69ef 0%, #3c5ae1 86.61%), linear-gradient(321.82deg, rgb(24, 19, 77) 0%, rgb(27, 22, 89) 100%)'
+          'linear-gradient(140.14deg, #2543c9 0%, #1d39b9 86.61%), linear-gradient(321.82deg, rgb(24, 19, 77) 0%, rgb(27, 22, 89) 100%)'
       }}
     >
       {innerFarmDatabaseWidgets}
@@ -507,7 +507,7 @@ function FarmCardDatabaseBodyCollapseItemFace({
   const pcCotent = (
     <Row
       type="grid-x"
-      className={`py-5 mobile:py-4 mobile:px-5 bg-[#5271fd] items-stretch gap-2 grid-cols-[auto,1.5fr,1fr,1fr,1fr,auto] mobile:grid-cols-[1fr,1fr,1fr,auto] rounded-t-3xl mobile:rounded-t-lg ${
+      className={`py-5 mobile:py-4 mobile:px-5 bg-[#112991] items-stretch gap-2 grid-cols-[auto,1.5fr,1fr,1fr,1fr,auto] mobile:grid-cols-[1fr,1fr,1fr,auto] rounded-t-3xl mobile:rounded-t-lg ${
         open ? '' : 'rounded-b-3xl mobile:rounded-b-lg'
       } transition-all`}
     >
@@ -599,7 +599,7 @@ function FarmCardDatabaseBodyCollapseItemFace({
       <Collapse.Face>
         <Row
           type="grid-x"
-          className={`py-4 px-5 mobile:p-2 items-stretch gap-2 grid-cols-[auto,1.1fr,1fr,1fr,auto] bg-[#5271fd] mobile:rounded-t-lg ${
+          className={`py-4 px-5 mobile:p-2 items-stretch gap-2 grid-cols-[auto,1.1fr,1fr,1fr,auto] bg-[#112991] mobile:rounded-t-lg ${
             open ? '' : 'rounded-b-3xl mobile:rounded-b-lg'
           }`}
         >
@@ -677,7 +677,7 @@ function FarmCardDatabaseBodyCollapseItemFace({
       </Collapse.Face>
 
       <Collapse.Body>
-        {/* <Row type="grid-x" className="py-4 px-5 relative items-center gap-2 grid-cols-[1fr,1fr,1fr,auto]  bg-[#5271fd]">
+        {/* <Row type="grid-x" className="py-4 px-5 relative items-center gap-2 grid-cols-[1fr,1fr,1fr,auto]  bg-[#112991]">
           <div className="absolute top-0 left-5 right-5 border-[rgba(171,196,255,.2)] border-t-1.5"></div>
           <TextInfoItem
             name="Volume(7d)"
@@ -985,7 +985,7 @@ function FarmStakeLpDialog() {
           size="lg"
           style={{
             background:
-              'linear-gradient(140.14deg, #4b69ef 0%, #3c5ae1 86.61%), linear-gradient(321.82deg, rgb(24, 19, 77) 0%, rgb(27, 22, 89) 100%)',
+              'linear-gradient(140.14deg, #2543c9 0%, #1d39b9 86.61%), linear-gradient(321.82deg, rgb(24, 19, 77) 0%, rgb(27, 22, 89) 100%)',
             boxShadow: '0px 8px 48px rgba(171, 196, 255, 0.12)'
           }}
         >

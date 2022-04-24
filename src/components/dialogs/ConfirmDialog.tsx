@@ -82,7 +82,7 @@ export default function ConfirmDialog(props: ConfirmDialogInfo & { domRef?: RefO
           size="lg"
           style={{
             background:
-              'linear-gradient(140.14deg, #4b69ef 0%, #3c5ae1 86.61%), linear-gradient(321.82deg, rgb(24, 19, 77) 0%, rgb(27, 22, 89) 100%)',
+              'linear-gradient(140.14deg, #2543c9 0%, #1d39b9 86.61%), linear-gradient(321.82deg, rgb(24, 19, 77) 0%, rgb(27, 22, 89) 100%)',
             boxShadow: '0px 8px 48px rgba(171, 196, 255, 0.12)'
           }}
         >

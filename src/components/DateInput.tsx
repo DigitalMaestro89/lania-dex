@@ -52,7 +52,7 @@ function DateInputBody({
     <Popover placement="top" className={className} cornerOffset={20}>
       <Popover.Button>
         <Input
-          className="bg-[#5271fd] rounded-lg py-2 px-4 cursor-text"
+          className="bg-[#112991] rounded-lg py-2 px-4 cursor-text"
           value={currentDate ? toUTC(currentDate, { showSeconds: true }) : undefined}
         />
       </Popover.Button>
