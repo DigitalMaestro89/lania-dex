@@ -108,7 +108,7 @@ export default function PageLayout(props: {
       <main
         // always occupy scrollbar space
         className={twMerge(
-          `PageLayoutContent relative isolate flex-container grid-area-c bg-gradient-to-b from-[#2a89c0] to-[#257daf] rounded-tl-3xl mobile:rounded-none p-12 ${
+          `PageLayoutContent relative isolate flex-container grid-area-c bg-gradient-to-b from-[#333333] to-[#257daf] rounded-tl-3xl mobile:rounded-none p-12 ${
             props.contentIsFixedLength ? 'pb-4' : ''
           } mobile:py-2 mobile:px-3`,
           props.contentClassName
@@ -339,7 +339,7 @@ function SideMenu({ className, onClickCloseBtn }: { className?: string; onClickC
         )}
         style={{
           background: isMobile
-            ? 'linear-gradient(140.14deg, #2543c9 0%, #1d39b9 86.61%), linear-gradient(321.82deg, rgb(24, 19, 77) 0%, rgb(27, 22, 89) 100%)'
+            ? 'linear-gradient(140.14deg, #333333 0%, #1d39b9 86.61%), linear-gradient(321.82deg, rgb(24, 19, 77) 0%, rgb(27, 22, 89) 100%)'
             : undefined,
           boxShadow: isMobile ? '8px 0px 48px rgba(171, 196, 255, 0.12)' : undefined
         }}

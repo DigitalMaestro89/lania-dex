@@ -125,7 +125,7 @@ function AcceleRaytorCollapseItemContent({ info }: { info: HydratedIdoInfo }) {
       className="p-4 px-12 gap-8 mobile:gap-3 rounded-b-3xl mobile:rounded-b-lg"
       style={{
         background:
-          'linear-gradient(140.14deg, #2543c9 0%, #1d39b9 86.61%), linear-gradient(321.82deg, rgb(24, 19, 77) 0%, rgb(27, 22, 89) 100%)'
+          'linear-gradient(140.14deg, #333333 0%, #1d39b9 86.61%), linear-gradient(321.82deg, rgb(24, 19, 77) 0%, rgb(27, 22, 89) 100%)'
       }}
     >
       <Card className="mx-auto w-[min(90vw,420px)] py-4 px-8 bg-acceleraytor-card-bg rounded-2xl frosted-glass-lightsmoke">

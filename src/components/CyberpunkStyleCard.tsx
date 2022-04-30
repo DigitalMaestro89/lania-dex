@@ -28,7 +28,7 @@ export default function CyberpunkStyleCard({
         minHeight: haveMinHeight ? '300px' : undefined, // or style will be freak
         borderRadius: borderRoundSize,
         padding: paddingSize,
-        backgroundImage: 'linear-gradient(246deg, #2543c9 7.97%, #2b6aff 49.17%, #39d0d8 92.1%)'
+        backgroundImage: 'linear-gradient(246deg, #333333 7.97%, #2b6aff 49.17%, #39d0d8 92.1%)'
       }}
     >
       <Card {...restProps}>{children}</Card>

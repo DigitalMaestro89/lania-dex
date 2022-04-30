@@ -257,7 +257,7 @@ function SwapCard() {
       size="lg"
       style={{
         background:
-          'linear-gradient(140.14deg, #2543c9 0%, #1936b9 86.61%), linear-gradient(321.82deg, #18134D 0%, #1B1659 100%)'
+          'linear-gradient(140.14deg, #333333 0%, #1936b9 86.61%), linear-gradient(321.82deg, #18134D 0%, #1B1659 100%)'
       }}
     >
       {/* input twin */}
@@ -984,7 +984,7 @@ function KLineChart() {
       size="lg"
       style={{
         background:
-          'linear-gradient(140.14deg, #2543c9 0%, #1d39b9 86.61%), linear-gradient(321.82deg, rgb(24, 19, 77) 0%, rgb(27, 22, 89) 100%)'
+          'linear-gradient(140.14deg, #333333 0%, #1d39b9 86.61%), linear-gradient(321.82deg, rgb(24, 19, 77) 0%, rgb(27, 22, 89) 100%)'
       }}
     >
       <div ref={kline1Box}>
