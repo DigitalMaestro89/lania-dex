@@ -20,7 +20,7 @@ import useDocumentMetaTitle from '@/hooks/useDocumentMetaTitle'
 
 function HomePageContainer({ children }: { children?: ReactNode }) {
   useDocumentScrollDetector()
-  useDocumentMetaTitle('Raydium')
+  useDocumentMetaTitle('Lania')
   return (
     <div
       className="flow-root overflow-x-hidden"
@@ -354,12 +354,13 @@ function HomePageFooter() {
   return (
     <footer
       className="pt-56 overflow-hidden"
-      style={{
-        background:
-          isTablet || isMobile
-            ? "url('/backgroundImages/home-footer-bg.webp') 0 0 / auto 100%"
-            : "url('/backgroundImages/home-footer-bg.webp') 0 0 / 100% 100%"
-      }}
+      style={{backgroundColor: "#26367d"}}
+      // style={{
+      //   background:
+      //     isTablet || isMobile
+      //       ? "url('/backgroundImages/home-footer-bg.webp') 0 0 / auto 100%"
+      //       : "url('/backgroundImages/home-footer-bg.webp') 0 0 / 100% 100%"
+      // }}
     >
       <Grid className="mobile:gap-14 justify-around px-[10%] grid-cols-4 tablet:grid-cols-3 mobile:grid-cols-1 gap-16">
         <div>
