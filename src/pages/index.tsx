@@ -114,7 +114,7 @@ function HomePageSection0() {
             {/* value */}
             <Row className="justify-center text-xl mobile:text-xs font-normal text-white tracking-widest mobile:tracking-wider">
               <div className="mr-1">$</div>
-              {tvl && (
+              {/* {tvl && (
                 <NumberJelly
                   fractionLength={0}
                   eachLoopDuration={400}
@@ -122,7 +122,8 @@ function HomePageSection0() {
                   currentValue={tvl}
                   initValue={tvl ? 0.999 * tvl : undefined}
                 />
-              )}
+              )} */}
+              0
             </Row>
           </Card>
 
@@ -131,7 +132,7 @@ function HomePageSection0() {
             {/* value */}
             <Row className="justify-center text-xl mobile:text-xs font-normal text-white tracking-widest mobile:tracking-wider">
               <div className="mr-1">$</div>
-              {totalvolume && (
+              {/* {totalvolume && (
                 <NumberJelly
                   fractionLength={0}
                   eachLoopDuration={200}
@@ -139,7 +140,8 @@ function HomePageSection0() {
                   currentValue={totalvolume}
                   initValue={totalvolume ? 0.999 * totalvolume : undefined}
                 />
-              )}
+              )} */}
+              0
             </Row>
           </Card>
         </Row>
