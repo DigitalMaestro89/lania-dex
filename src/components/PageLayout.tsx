@@ -846,89 +846,14 @@ function CommunityPopover() {
       </div>
       <div className="gap-3 divide-y-1.5 divide-[rgba(171,196,255,0.2)] ">
         <Item
-          href="https://twitter.com/RaydiumProtocol"
+          href="https://twitter.com/laniaprotocol"
           iconSrc="/icons/media-twitter.svg"
           text="Twitter"
         />
         <Item
-          href="https://discord.gg/raydium"
-          iconSrc="/icons/media-discord.svg"
-          text="Discord"
-        />
-        <PageLayoutPopoverDrawer
-          renderPopoverContent={({ close }) => (
-            <Col className="divide-y-1.5 divide-[rgba(171,196,255,0.2)]">
-              <Item
-                href="https://t.me/raydiumprotocol"
-                iconSrc="/icons/media-telegram.svg"
-                text="Telegram (EN)"
-                onClick={close}
-              />
-              <Item
-                href="https://t.me/RaydiumChina"
-                iconSrc="/icons/media-telegram.svg"
-                text="Telegram (CN)"
-                onClick={close}
-              />
-              <Item
-                href="https://t.me/raydiumkorea"
-                iconSrc="/icons/media-telegram.svg"
-                text="Telegram (KR)"
-                onClick={close}
-              />
-              <Item
-                href="https://t.me/raydiumjapan"
-                iconSrc="/icons/media-telegram.svg"
-                text="Telegram (JP)"
-                onClick={close}
-              />
-              <Item
-                href="https://t.me/RaydiumSpanish"
-                iconSrc="/icons/media-telegram.svg"
-                text="Telegram (ES)"
-                onClick={close}
-              />
-              <Item
-                href="https://t.me/RaydiumTurkey"
-                iconSrc="/icons/media-telegram.svg"
-                text="Telegram (TR)"
-                onClick={close}
-              />
-              <Item
-                href="https://t.me/RaydiumVietnam"
-                iconSrc="/icons/media-telegram.svg"
-                text="Telegram (VN)"
-                onClick={close}
-              />
-              <Item
-                href="https://t.me/RaydiumRussian"
-                iconSrc="/icons/media-telegram.svg"
-                text="Telegram (RU)"
-                onClick={close}
-              />
-              <Item
-                href="https://t.me/raydiumthailand"
-                iconSrc="/icons/media-telegram.svg"
-                text="Telegram (TH)"
-                onClick={close}
-              />
-            </Col>
-          )}
-        >
-          <Row className="flex items-center justify-between">
-            <Item iconSrc="/icons/media-telegram.svg" text="Telegram" />
-            <Icon
-              heroIconName="chevron-right"
-              size="sm"
-              className="justify-self-end m-2 text-[rgba(171,196,255,0.5)]"
-            />
-          </Row>
-        </PageLayoutPopoverDrawer>
-
-        <Item
-          href="https://raydium.medium.com/"
-          iconSrc="/icons/media-medium.svg"
-          text="Medium"
+          href="https://t.me/laniaprotocolcommunity"
+          iconSrc="/icons/media-telegram.svg"
+          text="Telegram"
         />
       </div>
     </>
